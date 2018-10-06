@@ -15,7 +15,6 @@
 
 (def app
   (wrap-defaults app-routes site-defaults))
-
   (defn generate-message-view
     "This generates the HTML for displaying messages"
     []
